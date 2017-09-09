@@ -27,3 +27,7 @@ ui.R - User interface R code for shiny app
 
 ### Shiny App URL
  https://lloydlow.shinyapps.io/CorporaSwiftKey_LL/
+ 
+### R presentation on this App
+http://rpubs.com/lloyd/305887
+
