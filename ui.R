@@ -39,7 +39,7 @@ fluidPage(
                    found in the cleaned ngram tables, the top five most common unigram is returned. Try
                    typing \"Biology is the most common\" in the textbox to see an example."),
                  h4("Source code"),
-                 p("here")
+                 a("https://github.com/lloydlow/CorporaSwiftKey_LL_final")
                  )
       )
     )
