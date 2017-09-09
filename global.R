@@ -126,10 +126,6 @@ theNextWord <- function(sentence, predict_word_no = 5) {
     return(predictedNextWord)
   }
   
-  # revInd <- rev(1:Words_len)
-  # revInd <- revInd[!(match_len %in% 0)]
-  # match_len <- match_len[!(match_len %in% 0)]
-  
   # find where there are matches only
   match_len_tmp <- c()
   for (j in 1:length(match_len)){
