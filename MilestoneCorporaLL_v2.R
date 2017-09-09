@@ -170,8 +170,3 @@ save(ngram_table, file = "20170820_ngram_table.RData")
 write.table(ngram_table, file = "final_ngram_table.txt", sep = "\t", row.names = FALSE)
 
 #deploy shiny app
-library(rsconnect)
-# need to run command setAccountInfo
-# the token and secret can be retrieved by running the app and trying to connect it
-setAccountInfo("lloydlow","A5D8C490A7A580341B184B67291B0BD4","zmwqOZ9lOCNbtrTf+yF6mABbT6jKWEgVuG6GK0Mw")
-rsconnect::deployApp("/Users/lloyd/Documents/lloyd_2016/coursera/DataScience/Course10_Capstone/CorporaSwiftKey_LL/")
